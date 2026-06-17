@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for fakev-status on 2025-01-01T01:48:19Z
+# fly.toml app configuration file generated for nezha-fly-protokc on 2026-06-17T11:43:02Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'protokc_nz'
+app = 'nezha-fly-protokc'
 primary_region = 'sin'
 
 [build]
@@ -13,7 +13,7 @@ primary_region = 'sin'
   destination = '/dashboard/data'
 
 [http_service]
-  internal_port = 8008
+  internal_port = 8080
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
